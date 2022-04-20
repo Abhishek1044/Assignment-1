@@ -1,4 +1,4 @@
-num1=int(input("Enter a num1 :"))
+num1=int(input("Enter a num1 :")) # takes input from the user
 num2=int(input("Enter a num2 :"))
 num3=int(input("Enter a num3 :"))
 
