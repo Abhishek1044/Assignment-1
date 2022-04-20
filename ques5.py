@@ -1,5 +1,6 @@
-import math
-print(f" 0 -- {round(math.sin(0),4)}  {round(math.cos(0),4)}")
+import math  # math module for sin() and cos() functions
+
+print(f" 0 -- {round(math.sin(0),4)}  {round(math.cos(0),4)}")     # round() for rounding off upto 4 digits
 print(f" 15 -- {round(math.sin(15),4)}  {round(math.cos(15),4)}")
 print(f" 30 -- {round(math.sin(30),4)}  {round(math.cos(30),4)}")
 print(f" 45 -- {round(math.sin(45),4)}  {round(math.cos(45),4)}")
