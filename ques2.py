@@ -1,0 +1,5 @@
+gross=int(input("Enter your Gross Income in U.S. $ : \n \t"))
+dep=int(input("Enter number of dependents : \n \t "))
+taxable_income= ( (gross - 10000) - dep*3000 )
+Tax= taxable_income*(0.2)
+print(f"Your Tax is : {Tax}")
