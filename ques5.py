@@ -1,6 +1,12 @@
 import math  # math module for sin() and cos() functions
 
-print(f" 0 -- {round(math.sin(0),4)}  {round(math.cos(0),4)}")     # round() for rounding off upto 4 digits
+# method 1 , via input from user
+angle=int(input("Enter angle in degree between 0 to 345 in multiple of 15 : \n \t "))
+print( f" {angle} -- {round(math.sin(angle),4)}  {round(math.cos(angle),4)} " )
+
+# method 2 , printing value of all angles directly
+
+print(f" 0 -- {round(math.sin(0),4)}  {round(math.cos(0),4)}")
 print(f" 15 -- {round(math.sin(15),4)}  {round(math.cos(15),4)}")
 print(f" 30 -- {round(math.sin(30),4)}  {round(math.cos(30),4)}")
 print(f" 45 -- {round(math.sin(45),4)}  {round(math.cos(45),4)}")
